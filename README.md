@@ -18,15 +18,21 @@ Upon completion of a test, a set of data will be generated providing insights in
  
 **Windows**
 
-    %userprofile%\AppData\LocalLow\Capstone Project\Virtual Human Benchmark
+```console
+%userprofile%\AppData\LocalLow\Capstone Project\Virtual Human Benchmark
+```
 
 **Android** 
 
-    /storage/emulated/0/Android/Virtual Human Benchmark/files
+```console
+/storage/emulated/0/Android/Virtual Human Benchmark/files
+```
 
 Under these root directories will be a subfolder for each test (i.e., Reaction Test). Within these folders will be the raw data files for the results of each test (in both json and csv file formats) using the following file naming scheme.
 
-    Capstone Project_<Mode>_<yyyy-dd-mm-hh-mm-ss>.<format>
+```console
+Capstone Project_<Mode>_<yyyy-dd-mm-hh-mm-ss>.<format>
+```
 
 ## Getting Started
 
